@@ -1,0 +1,51 @@
+info: ::1 - - [26/Jan/2024:20:50:07 +0000] "POST /auth/refresh-token HTTP/1.1" 200 363 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [26/Jan/2024:20:50:10 +0000] "POST /auth/ HTTP/1.1" 200 149 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [26/Jan/2024:20:50:14 +0000] "GET /auth/profile/10 HTTP/1.1" 200 146 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [26/Jan/2024:20:50:17 +0000] "GET /recommend/ HTTP/1.1" 200 717 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [26/Jan/2024:20:50:23 +0000] "GET /recommend/product/7 HTTP/1.1" 200 123 "-" "PostmanRuntime/7.36.1"
+
+info: Product created successfully
+info: ::1 - - [26/Jan/2024:20:55:25 +0000] "POST /recommend/ HTTP/1.1" 200 148 "-" "PostmanRuntime/7.36.1"
+
+info: user obtained successfully
+info: ::1 - - [26/Jan/2024:21:01:38 +0000] "POST /auth/refresh-token HTTP/1.1" 200 363 "-" "PostmanRuntime/7.36.1"
+
+info: User created successfully
+info: ::1 - - [26/Jan/2024:21:01:47 +0000] "POST /auth/ HTTP/1.1" 200 149 "-" "PostmanRuntime/7.36.1"
+
+info: user obtained successfully
+info: ::1 - - [26/Jan/2024:21:01:56 +0000] "GET /auth/profile/12 HTTP/1.1" 200 143 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [26/Jan/2024:21:03:32 +0000] "GET /auth/ HTTP/1.1" 200 58 "-" "PostmanRuntime/7.36.1"
+
+info: users obtained successfully
+info: ::1 - - [26/Jan/2024:21:03:40 +0000] "GET /auth/ HTTP/1.1" 200 1129 "-" "PostmanRuntime/7.36.1"
+
+{"level":"info","message":"user obtained successfully","service":"your-service-name"}
+{"level":"info","message":"::1 - - [26/Jan/2024:21:21:21 +0000] \"POST /auth/refresh-token HTTP/1.1\" 200 363 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"your-service-name"}
+{"level":"info","message":"::1 - - [26/Jan/2024:21:21:24 +0000] \"POST /auth/ HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"your-service-name"}
+{"level":"info","message":"::1 - - [26/Jan/2024:21:21:27 +0000] \"GET /auth/profile/12 HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"your-service-name"}
+{"level":"info","message":"::1 - - [26/Jan/2024:21:21:29 +0000] \"GET /auth/ HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"your-service-name"}
+{"level":"info","message":"::1 - - [26/Jan/2024:21:21:32 +0000] \"POST /recommend/ HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"your-service-name"}
+{"level":"info","message":"::1 - - [26/Jan/2024:21:21:38 +0000] \"GET /recommend/ HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"your-service-name"}
+{"level":"info","message":"Product created successfully","service":"your-service-name"}
+{"level":"info","message":"::1 - - [26/Jan/2024:21:21:58 +0000] \"POST /recommend/ HTTP/1.1\" 200 148 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"your-service-name"}
+{"level":"info","message":"Products obtained successfully","service":"your-service-name"}
+{"level":"info","message":"::1 - - [26/Jan/2024:21:22:07 +0000] \"GET /recommend/ HTTP/1.1\" 200 915 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"your-service-name"}
+{"level":"info","message":"Product obtained successfully","service":"your-service-name"}
+{"level":"info","message":"::1 - - [26/Jan/2024:21:22:13 +0000] \"GET /recommend/product/7 HTTP/1.1\" 200 123 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"your-service-name"}
+{"level":"info","message":"user obtained successfully","service":"your-service-name"}
+{"level":"info","message":"::1 - - [26/Jan/2024:21:22:40 +0000] \"POST /auth/refresh-token HTTP/1.1\" 200 363 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"your-service-name"}
+{"level":"info","message":"::1 - - [26/Jan/2024:21:22:46 +0000] \"POST /auth/ HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"your-service-name"}
+{"level":"info","message":"User created successfully","service":"your-service-name"}
+{"level":"info","message":"::1 - - [26/Jan/2024:21:23:00 +0000] \"POST /auth/ HTTP/1.1\" 200 149 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"your-service-name"}
+{"level":"info","message":"user obtained successfully","service":"your-service-name"}
+{"level":"info","message":"::1 - - [26/Jan/2024:21:23:17 +0000] \"GET /auth/profile/12 HTTP/1.1\" 200 143 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"your-service-name"}
+{"level":"info","message":"user obtained successfully","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [26/Jan/2024:22:18:43 +0000] \"GET /auth/profile/13 HTTP/1.1\" 200 141 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"user obtained successfully","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [26/Jan/2024:22:18:51 +0000] \"POST /auth/refresh-token HTTP/1.1\" 200 363 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
