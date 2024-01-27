@@ -45,6 +45,11 @@ module.exports = {
           message: "Database connection errror",
         });
       }
+      req.session.user = {
+        id: results.insertId,
+        email: body.email,
+      };
+
       return res.status(200).json({
         success: 1,
         data: results,
@@ -106,6 +111,10 @@ module.exports = {
       const result = compareSync(body.password, results.password);
       if (result) {
         results.password = undefined;
+        req.session.user = {
+          id: results.id,
+          email: results.email,
+        };
         const jsontoken = sign({ result: results }, process.env.JWT_KEY, {
           expiresIn: "1h",
         });
@@ -120,6 +129,21 @@ module.exports = {
           data: "Invalid email or password",
         });
       }
+    });
+  },
+  logout: (req, res) => {
+    req.session.destroy((err) => {
+      if (err) {
+        console.log(err);
+        return res.status(500).json({
+          success: 0,
+          message: "Error destroying session",
+        });
+      }
+      return res.status(200).json({
+        success: 1,
+        message: "Logout successful",
+      });
     });
   },
 };

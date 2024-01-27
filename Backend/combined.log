@@ -49,3 +49,61 @@ info: ::1 - - [26/Jan/2024:21:03:40 +0000] "GET /auth/ HTTP/1.1" 200 1129 "-" "P
 {"level":"info","message":"::1 - - [26/Jan/2024:22:18:43 +0000] \"GET /auth/profile/13 HTTP/1.1\" 200 141 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
 {"level":"info","message":"user obtained successfully","service":"e-commerce-application"}
 {"level":"info","message":"::1 - - [26/Jan/2024:22:18:51 +0000] \"POST /auth/refresh-token HTTP/1.1\" 200 363 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"user obtained successfully","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [27/Jan/2024:05:15:34 +0000] \"POST /auth/refresh-token HTTP/1.1\" 200 363 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"user obtained successfully","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [27/Jan/2024:05:15:48 +0000] \"POST /auth/refresh-token HTTP/1.1\" 200 363 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"User created successfully","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [27/Jan/2024:05:15:54 +0000] \"POST /auth/ HTTP/1.1\" 200 149 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"user obtained successfully","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [27/Jan/2024:05:16:02 +0000] \"GET /auth/profile/13 HTTP/1.1\" 200 141 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"users obtained successfully","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [27/Jan/2024:05:16:09 +0000] \"GET /auth/ HTTP/1.1\" 200 1501 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"Product created successfully","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [27/Jan/2024:05:16:16 +0000] \"POST /recommend/ HTTP/1.1\" 200 149 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"Products obtained successfully","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [27/Jan/2024:05:16:22 +0000] \"GET /recommend/ HTTP/1.1\" 200 1015 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"Product obtained successfully","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [27/Jan/2024:05:16:28 +0000] \"GET /recommend/product/7 HTTP/1.1\" 200 123 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"Product obtained successfully","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [27/Jan/2024:05:16:36 +0000] \"GET /recommend/product/11 HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"Product obtained successfully","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [27/Jan/2024:05:16:43 +0000] \"GET /recommend/product/8 HTTP/1.1\" 200 119 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [27/Jan/2024:05:18:07 +0000] \"POST /auth/logout HTTP/1.1\" 404 151 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [27/Jan/2024:05:20:25 +0000] \"POST /auth/logout HTTP/1.1\" 404 151 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [27/Jan/2024:05:27:19 +0000] \"POST /auth/logout HTTP/1.1\" 200 58 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [27/Jan/2024:05:27:45 +0000] \"POST /auth/logout HTTP/1.1\" 200 43 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"User created successfully","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [27/Jan/2024:05:27:53 +0000] \"POST /auth/ HTTP/1.1\" 200 149 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"users obtained successfully","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [27/Jan/2024:05:28:06 +0000] \"GET /auth/ HTTP/1.1\" 200 1625 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [27/Jan/2024:05:28:12 +0000] \"POST /auth/logout HTTP/1.1\" 200 43 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"user obtained successfully","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [27/Jan/2024:05:39:25 +0000] \"POST /auth/refresh-token HTTP/1.1\" 200 363 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"User created successfully","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [27/Jan/2024:05:39:30 +0000] \"POST /auth/ HTTP/1.1\" 200 149 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"user obtained successfully","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [27/Jan/2024:05:39:33 +0000] \"GET /auth/profile/13 HTTP/1.1\" 200 141 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"users obtained successfully","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [27/Jan/2024:05:39:35 +0000] \"GET /auth/ HTTP/1.1\" 200 1749 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"Product created successfully","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [27/Jan/2024:05:39:38 +0000] \"POST /recommend/ HTTP/1.1\" 200 149 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"Products obtained successfully","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [27/Jan/2024:05:39:40 +0000] \"GET /recommend/ HTTP/1.1\" 200 1115 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"Product obtained successfully","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [27/Jan/2024:05:39:42 +0000] \"GET /recommend/product/8 HTTP/1.1\" 200 119 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [27/Jan/2024:05:39:45 +0000] \"POST /auth/logout HTTP/1.1\" 200 43 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"Product obtained successfully","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [27/Jan/2024:05:39:55 +0000] \"GET /recommend/product/8 HTTP/1.1\" 200 119 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [27/Jan/2024:05:51:15 +0000] \"POST /auth/logout HTTP/1.1\" 200 43 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"user obtained successfully","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [27/Jan/2024:07:02:39 +0000] \"POST /auth/refresh-token HTTP/1.1\" 200 363 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [27/Jan/2024:07:02:43 +0000] \"POST /auth/ HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"User created successfully","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [27/Jan/2024:07:02:57 +0000] \"POST /auth/ HTTP/1.1\" 200 149 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"User created successfully","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [27/Jan/2024:07:17:43 +0000] \"POST /auth/ HTTP/1.1\" 200 149 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"User created successfully","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [27/Jan/2024:07:45:46 +0000] \"POST /auth/ HTTP/1.1\" 200 149 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
+{"level":"info","message":"user obtained successfully","service":"e-commerce-application"}
+{"level":"info","message":"::1 - - [27/Jan/2024:07:45:49 +0000] \"POST /auth/refresh-token HTTP/1.1\" 200 363 \"-\" \"PostmanRuntime/7.36.1\"\n","service":"e-commerce-application"}
