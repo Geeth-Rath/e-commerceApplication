@@ -1,0 +1,29 @@
+.sidebar-main-layout{
+  padding-left: 40px;
+  padding-right: 35px;
+}
+.sidebar-header-main {
+    display: flex;
+    background-color: #001529; 
+    color: #fff; 
+    width: auto;
+  }
+  
+  .sidebar-header-main div {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .sidebar-header-main-row-1 {
+    background-color: #1890ff; 
+  }
+  
+  .sidebar-header-main-row-2 {
+    background-color: #52c41a; 
+  }
+  
+  .sidebar-header-main-row-3 {
+    background-color: #ffec3d; 
+  }
+  
