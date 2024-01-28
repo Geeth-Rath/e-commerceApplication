@@ -1,0 +1,81 @@
+
+.product-header-main {
+   
+    background-color: rgb(128, 32, 0);
+    padding-right: 20px;
+  }
+  
+.product-header {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  font-weight: BOLD;
+  /* background-color: green; */
+}
+
+.product-dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-dropdown-text {
+  margin-right: 15px;
+}
+.sider-section {
+  font-size: 16px;
+  margin: 22px;
+  font-weight: bold;
+}
+.sider-menu {
+  background-color: red;
+}
+.sider-section-1 {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  margin-left: 29px;
+}
+.input-container {
+  width: 65px;
+  margin: 5px;
+}
+.sider-section-2 {
+  display: flex;
+  flex-direction: column;
+}
+:where(.css-dev-only-do-not-override-1qhpsh8).ant-layout .ant-layout-sider {
+  background: white;
+}
+:where(.css-dev-only-do-not-override-1qhpsh8).ant-layout .ant-layout-header,
+:where(.css-dev-only-do-not-override-1qhpsh8).ant-layout.ant-layout-footer {
+  flex: 0 0 auto;
+  background-color: white;
+  margin: 22px 42px 42px 42px;
+    border-radius: 15px;
+    font-size: 15px;
+
+}
+
+:where(.css-dev-only-do-not-override-1qhpsh8).ant-layout.ant-layout-has-sider {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    margin: -2px -358px 3px 38px;
+    padding-right: -65px;
+}
+.items-array-div {
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.items-array-brand {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.get-item-input-holder {
+  width: 100px;
+  height: 40px;
+}

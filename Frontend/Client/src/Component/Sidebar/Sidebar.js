@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import {
-  DownOutlined,
   HourglassOutlined,
   PullRequestOutlined,
   MobileOutlined,
@@ -14,11 +13,11 @@ import {
   ShopOutlined,
 } from "@ant-design/icons";
 import { Menu, theme, Layout, Breadcrumb } from "antd";
-import "../Styles/Sidebar.css";
-import Header from "./Header";
-import Footer from "../Component/Footer/Footer";
+import "../../Styles/Sidebar.css";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 
-const {  Content, Sider } = Layout;
+const { Content, Sider } = Layout;
 
 const items1 = ["1", "2", "3"].map((key) => ({
   key,
@@ -55,7 +54,7 @@ const items2 = [
   return {
     key,
     icon: React.createElement(icon),
-    label: ` ${submenuNames[index]}`, // Use the submenu names here
+    label: ` ${submenuNames[index]}`,
 
     children: new Array(4).fill(null).map((_, j) => {
       const subKey = index * 4 + j + 1;
@@ -73,37 +72,28 @@ const Sidebar = () => {
   } = theme.useToken();
 
   return (
-  <Fragment>
+    <Fragment>
       <Layout>
-      <Header/>
-      <Layout className="sidebar-main-layout">
-        <Sider width={200} >
-          <Menu
-            mode="inline"
-            items={items2}
-          />
-        </Sider>
-        <Layout style={{ padding: "0 24px 24px" }}>
-       
-          <Content
-            style={{
-              padding: 24,
-              margin: 0,
-              minHeight: 280,
-              background: colorBgContainer,
-              borderRadius: borderRadiusLG,
-            }}
-          >
-            Content
-          </Content>
+        <Layout className="sidebar-main-layout">
+          <Sider width={200}>
+            <Menu mode="inline" items={items2} />
+          </Sider>
+          <Layout style={{ padding: "0 24px 24px" }}>
+            <Content
+              style={{
+                padding: 24,
+                margin: 0,
+                minHeight: 280,
+                background: colorBgContainer,
+                borderRadius: borderRadiusLG,
+              }}
+            >
+              Content
+            </Content>
+          </Layout>
         </Layout>
-        
       </Layout>
-      <Footer/>
-    </Layout>
-    
-  </Fragment>
-    
+    </Fragment>
   );
 };
 
